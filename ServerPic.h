@@ -153,6 +153,9 @@ void AAMitsubishiOn ( int nTemperaturaAA, String cModoAA, int nVentiladorAA, int
 void AAMitsubishiOff ( int nTemperaturaAA, String cModoAA, int nVentiladorAA, int nRepeticionesAA );
 void AAKosnerOn ( int nTemperaturaAA, String cModoAA, int nVentiladorAA, int nRepeticionesAA );
 void AAKosnerOff ( int nTemperaturaAA, String cModoAA, int nVentiladorAA, int nRepeticionesAA );
+void TaurusOn(int nTemperatura, int nResistencias);
+void TaurusOff(void);
+
 
 	//------------------------------------
 	//Declaracion de variables UNIVERSALES
@@ -471,4 +474,42 @@ void AAKosnerOff ( int nTemperaturaAA, String cModoAA, int nVentiladorAA, int nR
 			nRepeticiones --;
 		}			
 	}	
+
+void TaurusOn(int nTemperatura, int nResistencias)
+{
+	int nTemperaturaI = 30;
+
+	//On
+	irsend.sendSymphony(0xDA0, 12, 3);
+	delay(1000);
+	//Por defecto se arranca con resistencia pequeña ( nResistencias = 1 )
+	//Si se desea poner la resistencia grande ( nResistencia = 2)
+	if (nResistencias == 2)
+	{
+		irsend.sendSymphony(0xD82, 12, 3);
+		delay(1500);
+	}
+	//Si se desea poner las dos resistencias ( nResistencia = 3)
+	if (nResistencias == 3)
+	{
+		irsend.sendSymphony(0xD82, 12, 3);
+		delay(1500);
+		irsend.sendSymphony(0xD82, 12, 3);
+		delay(1000);
+	}
+	//La estufa arranca con 30 grados, para llegar a la temperatura objetivo debemos decrementar la temperatura
+	irsend.sendSymphony(0xD81, 12, 3); //Menu
+	delay(300);
+	while (nTemperaturaI > nTemperatura)
+	{
+		irsend.sendSymphony(0xD88, 12, 3);
+		delay(1000);
+		nTemperaturaI--;
+	}
+}
+void TaurusOff(void)
+{
+	irsend.sendSymphony(0xDA0, 12, 3);
+	delay(1000);
+}	
 #endif
