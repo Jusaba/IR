@@ -1,0 +1,637 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\Julian\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\cores\\esp8266"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\Julian\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\variants\\generic"
+  },
+  {
+    "Sourcefile": "d:\\Repositorios\\Domo\\Esp8266\\Modulos Especificos\\IR\\build\\sketch\\IR.ino.cpp",
+    "Include": "ESP8266WiFi.h",
+    "Includepath": "C:\\Users\\Julian\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries\\ESP8266WiFi\\src"
+  },
+  {
+    "Sourcefile": "d:\\Repositorios\\Domo\\Esp8266\\Modulos Especificos\\IR\\build\\sketch\\IR.ino.cpp",
+    "Include": "ESP8266WebServer.h",
+    "Includepath": "C:\\Users\\Julian\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries\\ESP8266WebServer\\src"
+  },
+  {
+    "Sourcefile": "d:\\Repositorios\\Domo\\Esp8266\\Modulos Especificos\\IR\\build\\sketch\\IR.ino.cpp",
+    "Include": "ArduinoOTA.h",
+    "Includepath": "C:\\Users\\Julian\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries\\ArduinoOTA"
+  },
+  {
+    "Sourcefile": "d:\\Repositorios\\Domo\\Esp8266\\Modulos Especificos\\IR\\build\\sketch\\IR.ino.cpp",
+    "Include": "Global.h",
+    "Includepath": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\Serverpic"
+  },
+  {
+    "Sourcefile": "d:\\Repositorios\\Domo\\Esp8266\\Modulos Especificos\\IR\\build\\sketch\\IR.ino.cpp",
+    "Include": "EEPROM.h",
+    "Includepath": "C:\\Users\\Julian\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries\\EEPROM"
+  },
+  {
+    "Sourcefile": "d:\\Repositorios\\Domo\\Esp8266\\Modulos Especificos\\IR\\build\\sketch\\IR.ino.cpp",
+    "Include": "ESP8266mDNS.h",
+    "Includepath": "C:\\Users\\Julian\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries\\ESP8266mDNS\\src"
+  },
+  {
+    "Sourcefile": "d:\\Repositorios\\Domo\\Esp8266\\Modulos Especificos\\IR\\build\\sketch\\IR.ino.cpp",
+    "Include": "ESP8266HTTPClient.h",
+    "Includepath": "C:\\Users\\Julian\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries\\ESP8266HTTPClient\\src"
+  },
+  {
+    "Sourcefile": "d:\\Repositorios\\Domo\\Esp8266\\Modulos Especificos\\IR\\build\\sketch\\IR.ino.cpp",
+    "Include": "ESP8266httpUpdate.h",
+    "Includepath": "C:\\Users\\Julian\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries\\ESP8266httpUpdate\\src"
+  },
+  {
+    "Sourcefile": "d:\\Repositorios\\Domo\\Esp8266\\Modulos Especificos\\IR\\build\\sketch\\IR.ino.cpp",
+    "Include": "IRremoteESP8266.h",
+    "Includepath": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src"
+  },
+  {
+    "Sourcefile": "d:\\Repositorios\\Domo\\Esp8266\\Modulos Especificos\\IR\\build\\sketch\\IR.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries\\ESP8266WiFi\\src\\BearSSLHelpers.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries\\ESP8266WiFi\\src\\CertStoreBearSSL.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries\\ESP8266WiFi\\src\\ESP8266WiFi.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries\\ESP8266WiFi\\src\\ESP8266WiFiAP.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries\\ESP8266WiFi\\src\\ESP8266WiFiGeneric.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries\\ESP8266WiFi\\src\\ESP8266WiFiGratuitous.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries\\ESP8266WiFi\\src\\ESP8266WiFiMulti.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries\\ESP8266WiFi\\src\\ESP8266WiFiSTA-WPS.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries\\ESP8266WiFi\\src\\ESP8266WiFiSTA.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries\\ESP8266WiFi\\src\\ESP8266WiFiScan.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries\\ESP8266WiFi\\src\\WiFiClient.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries\\ESP8266WiFi\\src\\WiFiClientSecureAxTLS.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries\\ESP8266WiFi\\src\\WiFiClientSecureBearSSL.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries\\ESP8266WiFi\\src\\WiFiServer.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries\\ESP8266WiFi\\src\\WiFiServerSecureAxTLS.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries\\ESP8266WiFi\\src\\WiFiServerSecureBearSSL.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries\\ESP8266WiFi\\src\\WiFiUdp.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries\\ESP8266WebServer\\src\\detail\\mimetable.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries\\ArduinoOTA\\ArduinoOTA.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\Serverpic\\Configuracion.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\Serverpic\\ESP32WDT.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\Serverpic\\Eprom.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\Serverpic\\Global.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\Serverpic\\ModoAP.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\Serverpic\\ModoOTA.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\Serverpic\\ModoSTA.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\Serverpic\\Servidor.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries\\EEPROM\\EEPROM.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries\\ESP8266mDNS\\src\\ESP8266mDNS.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries\\ESP8266mDNS\\src\\ESP8266mDNS_Legacy.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries\\ESP8266mDNS\\src\\LEAmDNS.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries\\ESP8266mDNS\\src\\LEAmDNS_Control.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries\\ESP8266mDNS\\src\\LEAmDNS_Helpers.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries\\ESP8266mDNS\\src\\LEAmDNS_Structs.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries\\ESP8266mDNS\\src\\LEAmDNS_Transfer.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries\\ESP8266HTTPClient\\src\\ESP8266HTTPClient.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries\\ESP8266httpUpdate\\src\\ESP8266httpUpdate.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\IRac.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\IRrecv.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\IRsend.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\IRtext.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\IRtimer.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\IRutils.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Airton.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Airwell.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Aiwa.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Amcor.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Argo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Arris.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Bose.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Carrier.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Coolix.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Corona.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Daikin.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Delonghi.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Denon.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Dish.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Doshisha.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Ecoclim.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Electra.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_EliteScreens.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Epson.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Fujitsu.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_GICable.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_GlobalCache.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Goodweather.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Gree.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Haier.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Hitachi.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Inax.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_JVC.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Kelon.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Kelvinator.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_LG.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Lasertag.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Lego.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Lutron.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_MWM.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Magiquest.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Metz.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Midea.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_MilesTag2.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Mirage.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Mitsubishi.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_MitsubishiHeavy.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Multibrackets.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_NEC.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Neoclima.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Nikai.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Panasonic.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Pioneer.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Pronto.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_RC5_RC6.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_RCMM.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Rhoss.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Samsung.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Sanyo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Sharp.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Sherwood.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Sony.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Symphony.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Tcl.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Technibel.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Teco.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Teknopoint.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Toshiba.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Transcold.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Trotec.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Truma.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Vestel.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Voltas.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Whirlpool.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Whynter.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Xmp.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Julian\\Documentos\\Arduino\\libraries\\IRremoteESP8266-master\\src\\ir_Zepeal.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]
