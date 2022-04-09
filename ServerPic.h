@@ -91,7 +91,7 @@
 	//CARACTERISTICAS DISPOSITIVO
 	//----------------------------
 	#define VIno "1.1"						//Version del programa principal
-	#define VBuild  "3"
+	#define VBuild  "4"
 	//---------------------------------
 	//CARACTERISTICAS DE LA COMPILACION
 	//---------------------------------
@@ -153,6 +153,8 @@ void AAMitsubishiOn ( int nTemperaturaAA, String cModoAA, int nVentiladorAA, int
 void AAMitsubishiOff ( int nTemperaturaAA, String cModoAA, int nVentiladorAA, int nRepeticionesAA );
 void AAKosnerOn ( int nTemperaturaAA, String cModoAA, int nVentiladorAA, int nRepeticionesAA );
 void AAKosnerOff ( int nTemperaturaAA, String cModoAA, int nVentiladorAA, int nRepeticionesAA );
+void EStufaOn( String cModelo, int nTemperaturaEstufa, int nResistenciasEstufa);
+void EStufaOff( String cModelo, int nTemperaturaEstufa, int nResistenciasEstufa);
 void TaurusOn(int nTemperatura, int nResistencias);
 void TaurusOff(void);
 
@@ -189,7 +191,11 @@ void TaurusOff(void);
 	int nVentilador;
 	String cModo;
 	String cModelo;
+	int nResistencias;
 	int nRepeticiones;
+
+	IRsend irsend(OutputIR);
+
 
 	//Variables donde se almacenan los datos definidos anteriormente para pasarlos a Serverpic.h
 	//para mandar la información del Hardware y Software utilizados
@@ -474,7 +480,20 @@ void TaurusOff(void);
 			nRepeticiones --;
 		}			
 	}	
-
+	void EstufaOn ( String cModelo, int nTemperaturaEstufa, int nResistenciasEstufa )
+	{
+		if ( cModelo ==  "Taurus" )
+		{
+			TaurusOn ( nTemperaturaEstufa,  nResistenciasEstufa );		
+		}
+	}
+	void EstufaOff ( String cModelo, int nTemperaturaEstufa, int nResistenciasEstufa )
+	{
+		if ( cModelo ==  "Taurus" )
+		{
+			TaurusOff ( );		
+		}
+	}	
 void TaurusOn(int nTemperatura, int nResistencias)
 {
 	int nTemperaturaI = 30;

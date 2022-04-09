@@ -200,7 +200,7 @@ void loop() {
 				cSalida = String(' ');									//No ha habido cambio de estado, Vaciamos cSalida para que no se envie a WebSocket y a HomeKit 
 			}	
 
-			if ((oMensaje.Mensaje).indexOf("AAOn-:-")==0)								//Si se recibe 'Get', se devuelve el estado de PinSalida al remitente
+			if ((oMensaje.Mensaje).indexOf("AAOn-:-")==0)								//Si se recibe 'AAOn'
 			{
 				String cValor = String(oMensaje.Mensaje).substring(  3 + String(oMensaje.Mensaje).indexOf("-:-"),  String(oMensaje.Mensaje).length() ); 
 				cModelo = String(cValor).substring(0, String(cValor).indexOf("-:-"));
@@ -217,11 +217,48 @@ void loop() {
 				
 			}	
 
-			if (oMensaje.Mensaje == "AAOff")								//Si se recibe 'Get', se devuelve el estado de PinSalida al remitente
+			if ((oMensaje.Mensaje).indexOf("AAOff-:-")==0)								//Si se recibe 'AAOff
 			{
-Serial.print('--------');
-Serial.println(cModelo);				
+				String cValor = String(oMensaje.Mensaje).substring(  3 + String(oMensaje.Mensaje).indexOf("-:-"),  String(oMensaje.Mensaje).length() ); 
+				cModelo = String(cValor).substring(0, String(cValor).indexOf("-:-"));
+				cValor = String(cValor).substring(  3 + String(cValor).indexOf("-:-"),  String(cValor).length() );
+				String cTemperatura = String(cValor).substring(0, String(cValor).indexOf("-:-"));
+				cValor = String(cValor).substring(  3 + String(cValor).indexOf("-:-"),  String(cValor).length() );
+				cModo = String(cValor).substring(0, String(cValor).indexOf("-:-"));
+				String cVentilador =  String(cValor).substring(3 + String(cValor).indexOf("-:-"),  String(cValor).length());
+        		nTemperatura = (cTemperatura+'\0').toInt();
+				nVentilador = (cVentilador+'\0').toInt();
+        		nRepeticiones = 2;
+				cSalida = String(' ');		
         		AAOff (cModelo, nTemperatura, cModo, nVentilador, nRepeticiones );
+			}	
+
+			if ((oMensaje.Mensaje).indexOf("EstufaOn-:-")==0)								//Si se recibe 'EstufaOn'
+			{
+				String cValor = String(oMensaje.Mensaje).substring(  3 + String(oMensaje.Mensaje).indexOf("-:-"),  String(oMensaje.Mensaje).length() ); 
+				cModelo = String(cValor).substring(0, String(cValor).indexOf("-:-"));
+				cValor = String(cValor).substring(  3 + String(cValor).indexOf("-:-"),  String(cValor).length() );
+				String cTemperatura = String(cValor).substring(0, String(cValor).indexOf("-:-"));
+				String cResistencias =  String(cValor).substring(3 + String(cValor).indexOf("-:-"),  String(cValor).length());
+        		nTemperatura = (cTemperatura+'\0').toInt();
+				nResistencias = (cResistencias+'\0').toInt();
+ 				cSalida = String(' ');		
+				EstufaOn ( cModelo, nTemperatura, nResistencias );
+				
+			}	
+
+			if ((oMensaje.Mensaje).indexOf("EstufaOff-:-")==0)								//Si se recibe 'EstufaOff'
+			{
+				String cValor = String(oMensaje.Mensaje).substring(  3 + String(oMensaje.Mensaje).indexOf("-:-"),  String(oMensaje.Mensaje).length() ); 
+				cModelo = String(cValor).substring(0, String(cValor).indexOf("-:-"));
+				cValor = String(cValor).substring(  3 + String(cValor).indexOf("-:-"),  String(cValor).length() );
+				String cTemperatura = String(cValor).substring(0, String(cValor).indexOf("-:-"));
+				String cResistencias =  String(cValor).substring(3 + String(cValor).indexOf("-:-"),  String(cValor).length());
+        		nTemperatura = (cTemperatura+'\0').toInt();
+				nResistencias = (cResistencias+'\0').toInt();
+ 				cSalida = String(' ');		
+				EstufaOff ( cModelo, nTemperatura, nResistencias );
+				
 			}	
 	 		/*----------------
  			Actualizacion ultimo valor
